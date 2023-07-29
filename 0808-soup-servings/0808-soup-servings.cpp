@@ -17,7 +17,7 @@ public:
         return t[a][b] = 0.25*probablity;
     }
     double soupServings(int n) {
-        if(n>=4000) return 1.0;
+        if(n>=3500) return 1.0;
         t.resize(n+1, vector<double>(n+1, -1.0));
         return probAEmpty(n,n);
         
