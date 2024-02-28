@@ -11,7 +11,7 @@ public:
     void solve(string in, string out, vector<string> &ans) {
         if (in.length() == 0) {
             ans.push_back(out);
-            return; // Corrected: Return statement to exit the function
+            return;
         }
         if (isalpha(in[0])) {
             string out1=out;
